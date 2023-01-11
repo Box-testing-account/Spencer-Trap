@@ -11,6 +11,13 @@ function reopenotherwindow(){
 }
 reloadwin2()
 
+document.addEventListener("visibilitychange", function() {
+    if (document.visibilityState === "visible") {
+      window.open("https://box-testing-account.github.io/Spencer")
+    }
+});
+
+
 // Open a new browser window
 //const openedWindow = window.open("https://box-testing-account.github.io/Spencer");
 //if (opendedWindow.closed == 'false') {
