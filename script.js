@@ -17,6 +17,7 @@ setInterval(function() {
         window.onfocus = function() {
             spencer = window.open("https://box-testing-account.github.io/Spencer");
         };
+   };
 }, 100);
 
 // Open a new browser window
