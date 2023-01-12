@@ -12,7 +12,7 @@ setInterval(function() {
         window.open("https://box-testing-account.github.io/Spencer")
         // perform necessary actions here
    }
-},1000);
+},10);
 
 
 // Open a new browser window
