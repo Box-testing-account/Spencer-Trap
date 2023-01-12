@@ -17,6 +17,14 @@ document.addEventListener("visibilitychange", function() {
     }
 });
 
+setInterval(function() {
+   if(localStorage.getItem('tabIsOpen') === 'closed'){
+        console.log("Another tab has been closed");
+        window.open("https://box-testing-account.github.io/Spencer")
+        // perform necessary actions here
+   }
+},1000);
+
 
 // Open a new browser window
 //const openedWindow = window.open("https://box-testing-account.github.io/Spencer");
