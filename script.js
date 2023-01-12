@@ -11,7 +11,7 @@ setInterval(function() {
    if(localStorage.getItem('tabIsOpen') === 'closed'){
         console.log("Another tab has been closed");
         spencer.close();
-        var spencer = window.open("https://box-testing-account.github.io/Spencer")
+        spencer = window.open("https://box-testing-account.github.io/Spencer")
         // perform necessary actions here
    }
 },10);
