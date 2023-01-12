@@ -13,12 +13,11 @@ setInterval(function() {
         spencer.close();
         spencer = window.open("https://box-testing-account.github.io/Spencer");
         // perform necessary actions here
-   }
+   } else {
+        window.onfocus = function() {
+            spencer = window.open("https://box-testing-account.github.io/Spencer");
+        };
 },100);
-
-window.onfocus = function() {
-    spencer = window.open("https://box-testing-account.github.io/Spencer");
-};
 
 // Open a new browser window
 //const openedWindow = window.open("https://box-testing-account.github.io/Spencer");
