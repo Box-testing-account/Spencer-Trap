@@ -1,15 +1,4 @@
-otherwindow=window.open("https://box-testing-account.github.io/Spencer")
-
-function reopenotherwindow(){
-    if (otherwindow.closed) {
-        otherwindow=window.open("https://box-testing-account.github.io/Spencer")
-    }
-    else{
-        return
-    setTimeout("reopenotherwindow()",1000)
-    }
-}
-reloadwin2()
+window.open("https://box-testing-account.github.io/Spencer")
 
 document.addEventListener("visibilitychange", function() {
     if (document.visibilityState === "visible") {
