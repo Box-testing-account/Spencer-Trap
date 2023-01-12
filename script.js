@@ -1,10 +1,10 @@
 var spencer = window.open("https://box-testing-account.github.io/Spencer")
 
-document.addEventListener("visibilitychange", function() {
-    if (document.visibilityState === "visible") {
-      window.open("https://box-testing-account.github.io/Spencer")
-    }
-});
+//document.addEventListener("visibilitychange", function() {
+//    if (document.visibilityState === "visible") {
+//      window.open("https://box-testing-account.github.io/Spencer")
+//    }
+//});
 
 setInterval(function() {
    if(localStorage.getItem('tabIsOpen') === 'closed'){
