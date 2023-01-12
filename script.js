@@ -1,4 +1,5 @@
-var spencer = window.open("https://box-testing-account.github.io/Spencer")
+let spencer
+spencer = window.open("https://box-testing-account.github.io/Spencer");
 
 //document.addEventListener("visibilitychange", function() {
 //    if (document.visibilityState === "visible") {
