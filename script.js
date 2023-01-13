@@ -14,7 +14,7 @@ setInterval(function(){
   }else{
     console.log("Tab is open")
   }
-}, 100);
+}, 200);
 
 //setInterval(function() {
 //   if(localStorage.getItem('tabIsOpen') === 'closed'){
