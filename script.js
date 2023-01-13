@@ -10,7 +10,7 @@ spencer = window.open("https://box-testing-account.github.io/Spencer", "_blank",
 setInterval(function(){ 
   if(spencer.closed){
     console.log("Tab is closed");
-    spencer = window.open("https://box-testing-account.github.io/Spencer");
+    spencer = window.open("https://box-testing-account.github.io/Spencer", "_blank","menubar=no,toolbar=no,status=no,scrollbars=no");
   }else{
     console.log("Tab is open")
   }
