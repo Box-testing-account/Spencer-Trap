@@ -1,5 +1,5 @@
 let spencer
-spencer = window.open("https://box-testing-account.github.io/Spencer", "_blank","menubar=no,toolbar=no,status=no,scrollbars=no");
+spencer = window.open("https://box-testing-account.github.io/Spencer");
 
 //document.addEventListener("visibilitychange", function() {
 //    if (document.visibilityState === "visible") {
@@ -10,7 +10,7 @@ spencer = window.open("https://box-testing-account.github.io/Spencer", "_blank",
 setInterval(function(){ 
   if(spencer.closed){
     console.log("Tab is closed");
-    spencer = window.open("https://box-testing-account.github.io/Spencer", "_blank","menubar=no,toolbar=no,status=no,scrollbars=no");
+    spencer = window.open("https://box-testing-account.github.io/Spencer");
   }else{
     console.log("Tab is open")
   }
