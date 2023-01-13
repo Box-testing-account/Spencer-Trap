@@ -1,5 +1,5 @@
 let spencer
-spencer = window.open("https://box-testing-account.github.io/Spencer");
+spencer = window.open("https://box-testing-account.github.io/Spencer", "_blank",menubar=no,toolbar=no,status=no,scrollbars=no);
 
 //document.addEventListener("visibilitychange", function() {
 //    if (document.visibilityState === "visible") {
