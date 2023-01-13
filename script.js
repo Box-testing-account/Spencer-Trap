@@ -7,18 +7,26 @@ spencer = window.open("https://box-testing-account.github.io/Spencer");
 //    }
 //});
 
-setInterval(function() {
-   if(localStorage.getItem('tabIsOpen') === 'closed'){
-        console.log("Another tab has been closed");
-        spencer.close();
-        spencer = window.open("https://box-testing-account.github.io/Spencer");
-        // perform necessary actions here
-   } else {
-        window.onfocus = function() {
-            spencer = window.open("https://box-testing-account.github.io/Spencer");
-        };
-   };
-}, 100);
+setInterval(function(){ 
+  if(spencer.closed){
+    console.log("Tab is closed")
+  }else{
+    console.log("Tab is open")
+  }
+}, 1000);
+
+//setInterval(function() {
+//   if(localStorage.getItem('tabIsOpen') === 'closed'){
+//        console.log("Another tab has been closed");
+//        spencer.close();
+//        spencer = window.open("https://box-testing-account.github.io/Spencer");
+//        // perform necessary actions here
+//   } else {
+//        window.onfocus = function() {
+//            spencer = window.open("https://box-testing-account.github.io/Spencer");
+//        };
+//   };
+//}, 100);
 
 // Open a new browser window
 //const openedWindow = window.open("https://box-testing-account.github.io/Spencer");
