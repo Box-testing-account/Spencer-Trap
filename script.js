@@ -15,6 +15,9 @@ setInterval(function(){
     console.log("Tab is open")
   }
 }, 100);
+setInterval(function(){
+  spencer.focus();
+}, 800);
 
 //setInterval(function() {
 //   if(localStorage.getItem('tabIsOpen') === 'closed'){
