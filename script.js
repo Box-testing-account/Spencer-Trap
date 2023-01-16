@@ -7,9 +7,10 @@ setInterval(function() {
       console.log("Tab is closed");
       spencer = window.open("https://box-testing-account.github.io/Spencer/","_blank", 'menubar=no,status=no,toolbar=no,resizable=no,titlebar=no,alwaysRaised=yes,resizable=0');
     };
-    console.log("Activated is true")
+    console.log("Activated is true");
   } else {
     // Code to run if "activated" is false
-    console.log("Activated is false")
+    console.log("Activated is false");
+    window.close();
   }
 }, 50);
